@@ -8,18 +8,18 @@ public class navigations {
 
     @Test
     public void navigate() throws InterruptedException {
-//        open("https:www.impact.com");
-//
-//        //get title
-//        System.out.println(title());
-//
-//        open("https:www.google.com");
-//        System.out.println(title());
-//        back();
-//        System.out.println(title());
-//
-//        Thread.sleep(5000);
-//        refresh();
+        open("https:www.impact.com");
+
+        //get title
+        System.out.println(title());
+
+        open("https:www.google.com");
+        System.out.println(title());
+        back();
+        System.out.println(title());
+
+        Thread.sleep(5000);
+        refresh();
 
         //quit vs close
         open("https://www.impact.com");
